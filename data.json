@@ -1,0 +1,9 @@
+[
+    { "login":"Yuri", "password":"123"},
+    { "login":"Viktor", "password":"456"},
+    { "login":"Nancy", "password":"789"},
+    { "login":"Igor", "password":"012"},
+    { "login":"Misha", "password":"345"},
+    { "login":"Vasia", "password":"678"},
+    { "login":"Grisha", "password":"9221"}
+]

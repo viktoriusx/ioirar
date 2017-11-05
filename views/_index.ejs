@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<html ng-app="app">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%= title %></title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link  rel='stylesheet' href='/stylesheets/toaster.css' />
+        <!-- MetisMenu CSS -->
+    <link href="/stylesheets/metisMenu.min.css" rel="stylesheet">
+     <!-- DataTables CSS -->
+    <link href="/stylesheets/dataTables.bootstrap.min.css" rel="stylesheet">     
+        <!-- DataTables Responsive CSS -->
+    <link href="/stylesheets/dataTables.responsive.css" rel="stylesheet">
+  </head>
+  <body>
+<!-- Single button -->
+    <toaster-container toaster-options="{'time-out': 7000}"></toaster-container>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" >All American</a>
+    </div>
+<div class="btn-group">
+  <button style="margin: 10px;" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Menu <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="#/">Home</a></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#/admin">Admin</a></li>
+  </ul>
+</div> 
+  </div>
+</nav>
+    <ng-view></ng-view>
+          <script type="text/javascript" src="/javascripts/jquery-3.2.1.min.js"></script> 
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!-- Metis Menu Plugin JavaScript -->
+    <script src="/javascripts/metisMenu.min.js"></script>
+    <!-- DataTables JavaScript -->
+    <script src="/javascripts/jquery.dataTables.min.js"></script>
+    <script src="/javascripts/dataTables.bootstrap.min.js"></script>
+    <script src="/javascripts/dataTables.responsive.js"></script>
+    <script src="/javascripts/sb-admin-2.js"></script>
+    <script type="text/javascript" src="/javascripts/angular.min.js"></script>
+    <script type="text/javascript" src="/javascripts/angular-resource.min.js"></script>
+    <script type="text/javascript" src="/javascripts/angular-route.min.js"></script>
+    <script type="text/javascript" src="/javascripts/app.js"></script>
+    <script type="text/javascript" src="/javascripts/toaster.js"></script>
+          
+<script>
+function clearForm() {
+    document.getElementById("Form").reset();
+}
+</script>
+    <!-- Page-Level Demo Scripts - Tables - Use for reference -->
+  </body>
+</html>

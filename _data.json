@@ -1,0 +1,9 @@
+[
+    { "login":"Yuri", "password":"123", "id":"1" },
+    { "login":"Viktor", "password":"456", "id":"2" },
+    { "login":"Nancy", "password":"789", "id":"3" },
+    { "login":"Igor", "password":"012", "id":"4" },
+    { "login":"Misha", "password":"345", "id":"5" },
+    { "login":"Vasia", "password":"678", "id":"6" },
+    { "login":"Grisha", "password":"9221", "id":"7" }
+]
